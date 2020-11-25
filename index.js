@@ -24,6 +24,6 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3010;
 
-app.listen(PORT, function () {
+app.listen(PORT, function() {
     console.log('started on: ', this.address().port);
 });
