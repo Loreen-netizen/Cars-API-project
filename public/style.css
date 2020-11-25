@@ -1,3 +1,28 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.main {
+    background-image: url(https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    background-color: linear-gradient(to bottom, turquoise, white);
+}
+
+.mainDiv {
+    color: grey;
+    background-image: linear-gradient(to bottom, turquoise, white);
+    border-radius: 2%;
+    overflow: auto;
+    height: 1000px;
+}
+
+.center-div {
+    background-color: linear-gradient(to bottom, turquoise, white);
+    border-radius: 5px;
+    color: white;
+}
+
+.li-item {
+    background-color: rgba(255, 0, 0, 0.0);
+    border: 0px;
+}
